@@ -1,0 +1,6 @@
+.env
+config/knownClients.js
+
+**/*.log
+
+node_modules

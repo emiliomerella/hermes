@@ -1,0 +1,14 @@
+module.exports = {
+  serviceOne: {
+    id: '345',
+    secret: '123',
+    ws: true,
+  },
+  serviceTwo: {
+    url: process.env.SERVICE_TWO_URL,
+  },
+  frontendOne: {
+    id: '123',
+    ws: true,
+  },
+}

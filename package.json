@@ -1,0 +1,36 @@
+{
+  "name": "node-event-dispatcher",
+  "version": "1.0.0",
+  "description": "A node.js boilerplate app to dispatch events in a microservices client-server architecture",
+  "scripts": {
+    "test": "jest tests/ --verbose"
+  },
+  "keywords": [
+    "websockets",
+    "socket.io",
+    "events",
+    "manager",
+    "dispatcher",
+    "microservices",
+    "client-server"
+  ],
+  "author": "Emilio Merella <emilio.merella@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-node": "^6.0.1",
+    "jest": "^22.4.3"
+  }
+}
