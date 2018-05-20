@@ -1,14 +1,16 @@
 {
-  env: {
-    jest: true
+  "env": {
+    "jest": true
   },
-  extends: "airbnb",
-  rules: {
-    indent: [2, 2, { MemberExpression: 0 }],
+  "extends": "airbnb",
+  "rules": {
+    "indent": [2, 2, { MemberExpression: 0 }],
     "max-len": [2, { "code": 120, "tabWidth": 2, "ignoreUrls": true, "comments": 160 }],
     "no-console": "off",
+    "no-param-reassign": "off",
+    "no-throw-literal": "off",
     "no-underscore-dangle": "off",
     "no-use-before-define": "off",
-    "no-throw-literal": "off"
+    "semi": "off"
   }
 }
