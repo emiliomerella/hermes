@@ -12,7 +12,8 @@
     "manager",
     "dispatcher",
     "microservices",
-    "client-server"
+    "client-server",
+    "server-server"
   ],
   "author": "Emilio Merella <emilio.merella@gmail.com>",
   "license": "MIT",
@@ -30,7 +31,11 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^7.8.2",
     "jest": "^22.4.3"
   }
 }
