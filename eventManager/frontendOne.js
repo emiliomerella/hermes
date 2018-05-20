@@ -15,8 +15,6 @@ module.exports = (ns) => {
 
     socket.on('new-message', data => ns.emit('update:new-message', data))
 
-    // socket.on('anEvent', data => nsController.anEvent(data))
-
     socket.on('disconnect', reason => console.log(`[ INFO ] - frontendOne - client disconnected (${reason}).`))
   })
 
